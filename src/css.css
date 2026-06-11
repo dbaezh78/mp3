@@ -1,0 +1,245 @@
+/* Variables de color (Mantenemos tus colores actuales) */
+:root {
+    --bg-dark: #0d1b2a;
+    --bg-card: #1b263b;
+    --sky-blue: #00b4d8;
+    --sky-blue-glow: #90e0ef;
+    --text-light: #e0e1dd;
+    --text-muted: #415a77;
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+/* Contenedor Principal */
+.player-container {
+    background-color: var(--bg-card);
+    width: 100%;
+    max-width: 600px;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 180, 216, 0.2);
+}
+
+/* Encabezado */
+.player-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 15px;
+}
+
+.player-header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: var(--sky-blue);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Estilizado del Selector Dropdown */
+.select-container {
+    position: relative;
+}
+
+#select-folder {
+    background-color: var(--bg-dark);
+    color: var(--sky-blue);
+    border: 2px solid var(--sky-blue);
+    padding: 8px 30px 8px 12px;
+    border-radius: 0px; /* Completamente cuadrado */
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+    font-family: inherit;
+    transition: all 0.3s ease;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+#select-folder:hover, #select-folder:focus {
+    box-shadow: 0 0 12px var(--sky-blue-glow);
+    border-color: var(--sky-blue-glow);
+}
+
+/* Flecha personalizada para el select */
+.select-container::after {
+    content: '▼';
+    font-size: 0.8rem;
+    color: var(--sky-blue);
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+/* Controles de Audio */
+.audio-element-container {
+    background: rgba(13, 27, 42, 0.6);
+    padding: 15px;
+    border-radius: 0px; /* Completamente cuadrado */
+    margin-bottom: 20px;
+}
+
+audio {
+    width: 100%;
+    outline: none;
+    background: aliceblue;
+}
+
+.track-title-display {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: var(--sky-blue-glow);
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Línea divisoria estilo "raya azul cielo" */
+.neon-divider {
+    border: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--sky-blue), transparent);
+    margin: 25px 0;
+}
+
+/* Secciones de la Lista de Reproducción */
+.playlist-section h2 {
+    font-size: 1.1rem;
+    margin-top: 0;
+    color: var(--text-light);
+}
+
+.playlist-tree {
+    max-height: 320px;
+    overflow-y: auto;
+    padding-right: 5px;
+}
+
+/* Estilos para scrollbar */
+.playlist-tree::-webkit-scrollbar {
+    width: 6px;
+}
+.playlist-tree::-webkit-scrollbar-thumb {
+    background-color: var(--sky-blue);
+    border-radius: 3px;
+}
+
+.empty-state {
+    color: var(--text-muted);
+    font-style: italic;
+    text-align: center;
+}
+
+/* Carpetas y Archivos en la lista */
+.folder-title {
+    font-weight: bold;
+    color: var(--sky-blue);
+    background: rgba(0, 180, 216, 0.1);
+    padding: 6px 10px;
+    border-radius: 0px; /* Completamente cuadrado */
+    margin-bottom: 5px;
+    font-size: 0.95rem;
+    text-transform: capitalize;
+}
+
+.tracks-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.track-item {
+    padding: 10px 12px;
+    border-bottom: 1px solid rgba(65, 90, 119, 0.3);
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background 0.2s ease;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.track-item:hover {
+    background: rgba(144, 224, 239, 0.1);
+    color: var(--sky-blue-glow);
+}
+
+.track-item.active {
+    color: var(--bg-dark);
+    background-color: var(--sky-blue-glow);
+    font-weight: bold;
+    border-radius: 0px; /* Completamente cuadrado */
+}
+
+
+/* nuevos */
+
+/* --- Ajustes de Estética Cuadrada Absoluta --- */
+
+.player-container,
+.audio-element-container,
+.folder-title,
+#select-folder {
+    border-radius: 0px !important; /* Fuerza a todos los contenedores a mantener los bordes rectos */
+}
+
+/* Ajuste de cada fila de canción */
+.track-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 12px;
+    border-bottom: 1px solid rgba(65, 90, 119, 0.3);
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background 0.2s ease;
+}
+
+.track-item:hover {
+    background: rgba(144, 224, 239, 0.1);
+    color: var(--sky-blue-glow);
+}
+
+.track-item.active {
+    color: var(--bg-dark);
+    background-color: var(--sky-blue-glow);
+    font-weight: bold;
+    border-radius: 0px; /* Cuadrado */
+}
+
+/* Nombre de la canción (controla desbordamientos) */
+.track-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 15px;
+    flex-grow: 1;
+}
+
+/* Duración del audio en la esquina derecha */
+.track-duration {
+    font-family: monospace; /* Mantiene fijos los números */
+    color: var(--sky-blue);
+    font-size: 0.85rem;
+    flex-shrink: 0;
+}
+
+/* Si la fila está activa, cambia el color del tiempo para legibilidad */
+.track-item.active .track-duration {
+    color: var(--bg-dark);
+}

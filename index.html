@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Audio Player</title>
+    <link rel="stylesheet" href="src/css.css">
+</head>
+<body>
+
+    <div class="player-container">
+        <header class="player-header">
+            <h1>Audio Player</h1>
+            <div class="select-container">
+
+
+<select id="select-folder">
+    <option value="" disabled selected>Cargando carpetas...</option>
+</select>
+            </div>
+        </header>
+
+        <div class="audio-element-container">
+            <audio id="audio-player" controls></audio>
+            <div id="current-track-title" class="track-title-display">Ninguna canción seleccionada</div>
+        </div>
+
+        <hr class="neon-divider">
+
+        <main class="playlist-section">
+            <h2 id="playlist-current-folder">Contenido Encontrado</h2>
+            <div id="playlist-tree" class="playlist-tree">
+                <p class="empty-state">Selecciona una carpeta del menú para cargar los audios.</p>
+            </div>
+        </main>
+    </div>
+
+    <script src="src/js.js"></script>
+</body>
+</html>

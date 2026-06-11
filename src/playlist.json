@@ -1,0 +1,26 @@
+{
+  "carpetas": [
+    {
+      "id": "Credo",
+      "nombre_elegante": "Credó Apostolico",
+      "audios": [
+        { "archivo": "audio/credo/00. Credo.mp3", "titulo_elegante": "Credo Apostólico Introducción" },
+        { "archivo": "audio/credo/01. Creo en Dios Padre todopoderoso.mp3", "titulo_elegante": "Creo en Dios Padre todopoderoso" },
+        { "archivo": "audio/credo/02. Creo en Jesucristo su único Hijo.mp3", "titulo_elegante": "Creo en Jesucristo su único Hijo" },
+        { "archivo": "audio/credo/03. Que fue concebido por el Espiritu Santo.mp3", "titulo_elegante": "Que fue concebido por el Espiritu Santo" },
+        { "archivo": "audio/credo/04. Padecio bajo el poder de poncio Pilato.mp3", "titulo_elegante": "Padecio bajo el poder de poncio Pilato" },
+        { "archivo": "audio/credo/05. Descendió a los infiernos y al tercer dia resucitó.mp3", "titulo_elegante": "Descendió a los infiernos y al tercer dia resucitó" },
+        { "archivo": "audio/credo/06. Subió al cielo y está sentado a la derecha de Dios Padre.mp3", "titulo_elegante": "Subió al cielo y está sentado a la derecha de Dios Padre" }
+
+      ]
+    },
+    {
+      "id": "carpeta2",
+      "nombre_elegante": "Álbum Instrumental",
+      "audios": [
+        { "archivo": "audio/carpeta2/pista_01.mp3", "titulo_elegante": "Melodía de Apertura" },
+        { "archivo": "audio/carpeta2/pista_02.mp3", "titulo_elegante": "Sinfonía del Atardecer" }
+      ]
+    }
+  ]
+}
