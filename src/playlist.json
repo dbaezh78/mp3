@@ -15,8 +15,8 @@
       ]
     },
     {
-      "id": "Biblia de Jerusalen",
-      "nombre_elegante": "Álbum Instrumental",
+      "id": "Biblia",
+      "nombre_elegante": "Biblia de Jerusalen",
       "audios": [
         { "archivo": "audio/Biblia/01-Genesis.mp3", "titulo_elegante": "Libro del Genesis" },
         { "archivo": "audio/Biblia/02-Exodo.mp3",   "titulo_elegante": "Libro del Exodo" }
