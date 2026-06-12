@@ -15,11 +15,11 @@
       ]
     },
     {
-      "id": "carpeta2",
+      "id": "Biblia de Jerusalen",
       "nombre_elegante": "Álbum Instrumental",
       "audios": [
-        { "archivo": "audio/carpeta2/pista_01.mp3", "titulo_elegante": "Melodía de Apertura" },
-        { "archivo": "audio/carpeta2/pista_02.mp3", "titulo_elegante": "Sinfonía del Atardecer" }
+        { "archivo": "audio/Biblia/01-Genesis.mp3", "titulo_elegante": "Libro del Genesis" },
+        { "archivo": "audio/Biblia/02-Exodo.mp3",   "titulo_elegante": "Libro del Exodo" }
       ]
     }
   ]
