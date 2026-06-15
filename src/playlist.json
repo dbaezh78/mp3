@@ -1,19 +1,7 @@
 {
   "carpetas": [
-    {
-      "id": "Credo",
-      "nombre_elegante": "Credó Apostolico",
-      "audios": [
-        { "archivo": "audio/credo/00. Credo.mp3", "titulo_elegante": "Credo Apostólico Introducción" },
-        { "archivo": "audio/credo/01. Creo en Dios Padre todopoderoso.mp3", "titulo_elegante": "Creo en Dios Padre todopoderoso" },
-        { "archivo": "audio/credo/02. Creo en Jesucristo su único Hijo.mp3", "titulo_elegante": "Creo en Jesucristo su único Hijo" },
-        { "archivo": "audio/credo/03. Que fue concebido por el Espiritu Santo.mp3", "titulo_elegante": "Que fue concebido por el Espiritu Santo" },
-        { "archivo": "audio/credo/04. Padecio bajo el poder de poncio Pilato.mp3", "titulo_elegante": "Padecio bajo el poder de poncio Pilato" },
-        { "archivo": "audio/credo/05. Descendió a los infiernos y al tercer dia resucitó.mp3", "titulo_elegante": "Descendió a los infiernos y al tercer dia resucitó" },
-        { "archivo": "audio/credo/06. Subió al cielo y está sentado a la derecha de Dios Padre.mp3", "titulo_elegante": "Subió al cielo y está sentado a la derecha de Dios Padre" }
-      ]
-    },
-    {
+
+        {
       "id": "Biblia",
       "nombre_elegante": "Biblia de Jerusalén",
       "audios": [
@@ -66,7 +54,52 @@
         { "archivo": "audio/Biblia/48-Marcos.mp3", "titulo_elegante": "Evangelio según San Marcos" },
         { "archivo": "audio/Biblia/49-Lucas.mp3", "titulo_elegante": "Evangelio según San Lucas" },
         { "archivo": "audio/Biblia/50-Juan.mp3", "titulo_elegante": "Evangelio según San Juan" },
-        { "archivo": "audio/Biblia/51-Hechos.mp3", "titulo_elegante": "Hechos de los Apóstoles" }
+        { "archivo": "audio/Biblia/51-Hechos.mp3", "titulo_elegante": "Hechos de los Apóstoles" },
+        { "archivo": "audio/Biblia/52-Romanos.mp3", "titulo_elegante": "Carta a los Romanos" },
+        { "archivo": "audio/Biblia/53-I Corintios.mp3", "titulo_elegante": "1ra Carta a los Corintios" },
+        { "archivo": "audio/Biblia/54-II Corintios.mp3", "titulo_elegante": "2da Carta a los Corintios" },
+        { "archivo": "audio/Biblia/55-Gálatas.mp3", "titulo_elegante": "Carta a los Galatas" },
+        { "archivo": "audio/Biblia/56-Efesios.mp3", "titulo_elegante": "Carta a los Efesios" },
+        { "archivo": "audio/Biblia/57-Filipenses.mp3", "titulo_elegante": "Carta a los Filipenses" },
+        { "archivo": "audio/Biblia/58-Colosenses.mp3", "titulo_elegante": "Carta a los Colosenses" },
+        { "archivo": "audio/Biblia/59-I Tesalonicenses.mp3", "titulo_elegante": "1ra Carta a los Tesaloniceses" },
+        { "archivo": "audio/Biblia/60-II Tesalonicenses.mp3", "titulo_elegante": "2da Carta a los Tesaloniceses" },
+        { "archivo": "audio/Biblia/61-I Timoteo.mp3", "titulo_elegante": "1ra Carta a Timoteo" },
+        { "archivo": "audio/Biblia/62-II Timoteo.mp3", "titulo_elegante": "2da Carta a Timoteo" },
+        { "archivo": "audio/Biblia/63-Tito.mp3", "titulo_elegante": "Carta a Tito" },
+        { "archivo": "audio/Biblia/64-Filemón.mp3", "titulo_elegante": "Carta a Filemon" },
+        { "archivo": "audio/Biblia/65-Hebreos.mp3", "titulo_elegante": "Carta a los Hebreos" },
+        { "archivo": "audio/Biblia/66-Santiago.mp3", "titulo_elegante": "Epistola de Santiago" },
+        { "archivo": "audio/Biblia/67-I Pedro.mp3", "titulo_elegante": "1ra Epistola de Pedro" },
+        { "archivo": "audio/Biblia/68-II Pedro.mp3", "titulo_elegante": "2da Epistola de Pedro" },
+        { "archivo": "audio/Biblia/69-I Juan.mp3", "titulo_elegante": "1ra Epistola de Juan" },
+        { "archivo": "audio/Biblia/70-II Juan.mp3", "titulo_elegante": "2da Epistola de Juan" },
+        { "archivo": "audio/Biblia/71-III Juan.mp3", "titulo_elegante": "3ra Epistola de Juan" },
+        { "archivo": "audio/Biblia/72-Judas.mp3", "titulo_elegante": "Epistola de Judas" },
+        { "archivo": "audio/Biblia/73-Apocalipsis.mp3", "titulo_elegante": "Libro del Apocalipsis" }
+
+      ]
+    },
+
+    {
+      "id": "Credo",
+      "nombre_elegante": "Credó Apostolico",
+      "audios": [
+
+
+        { "archivo": "audio/Credo/00-Credo.mp3", "titulo_elegante": "Credo" },
+        { "archivo": "audio/Credo/01-DiosPadretodopoderoso.mp3",                          "titulo_elegante": "1 Creo en Dios Padre todopoderoso" },
+        { "archivo": "audio/Credo/02-JesucristoÚnicoHijo.mp3",                            "titulo_elegante": "2 Creo en Jesucristo su único Hijo" },
+        { "archivo": "audio/Credo/03-concebidoEspirituSanto.mp3",                         "titulo_elegante": "3 Que fue concebido por el Espiritu Santo" },
+        { "archivo": "audio/Credo/04-PadeciobajopoderponcioPilato.mp3",                   "titulo_elegante": "4 Padecio bajo el poder de poncio Pilato" },
+        { "archivo": "audio/Credo/05-DescendióInfiernosyTercerdiaResucitó.mp3",           "titulo_elegante": "5 Descendió a los infiernos y al tercer dia resucitó" },
+        { "archivo": "audio/Credo/06-SubióCieloyestáSentadoDerechadeDiosPadre.mp3",       "titulo_elegante": "6 Subió al cielo y está sentado a la derecha de Dios Padre" },
+        { "archivo": "audio/Credo/07-Desdeallihadevenirajuzgaralosvivosyalosmuertos.mp3", "titulo_elegante": "7 Desde allio ha de venir a juzgar a los vivos y a los muertos" },
+        { "archivo": "audio/Credo/08-CreoEspirituSanto.mp3",                              "titulo_elegante": "8 Creo en el Espiritu Santo" },
+        { "archivo": "audio/Credo/09-santaIglesiCatólica.mp3",                            "titulo_elegante": "9 La santa Iglesia Católica" },
+        { "archivo": "audio/Credo/10-comunióndelossantos.mp3",                            "titulo_elegante": "10 La comunión de los santos" },
+        { "archivo": "audio/Credo/11-perdóndelospecados.mp3",                             "titulo_elegante": "11 El perdón de los pecados" },
+        { "archivo": "audio/Credo/12-ResurrecciónCarneylavidaeterna.mp3",                 "titulo_elegante": "12 La resurrección de la carne y la vida eterna" }
       ]
     }
   ]
