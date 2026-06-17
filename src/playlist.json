@@ -88,19 +88,19 @@
       "audios": [
 
 
-        { "archivo": "audio/Credo/00-Credo.mp3", "titulo_elegante": "Credo" },
-        { "archivo": "audio/Credo/01-DiosPadretodopoderoso.mp3",                          "titulo_elegante": "1 Creo en Dios Padre todopoderoso" },
-        { "archivo": "audio/Credo/02-JesucristoÚnicoHijo.mp3",                            "titulo_elegante": "2 Creo en Jesucristo su único Hijo" },
-        { "archivo": "audio/Credo/03-concebidoEspirituSanto.mp3",                         "titulo_elegante": "3 Que fue concebido por el Espiritu Santo" },
-        { "archivo": "audio/Credo/04-PadeciobajopoderponcioPilato.mp3",                   "titulo_elegante": "4 Padecio bajo el poder de poncio Pilato" },
-        { "archivo": "audio/Credo/05-DescendióInfiernosyTercerdiaResucitó.mp3",           "titulo_elegante": "5 Descendió a los infiernos y al tercer dia resucitó" },
-        { "archivo": "audio/Credo/06-SubióCieloyestáSentadoDerechadeDiosPadre.mp3",       "titulo_elegante": "6 Subió al cielo y está sentado a la derecha de Dios Padre" },
-        { "archivo": "audio/Credo/07-Desdeallihadevenirajuzgaralosvivosyalosmuertos.mp3", "titulo_elegante": "7 Desde allio ha de venir a juzgar a los vivos y a los muertos" },
-        { "archivo": "audio/Credo/08-CreoEspirituSanto.mp3",                              "titulo_elegante": "8 Creo en el Espiritu Santo" },
-        { "archivo": "audio/Credo/09-santaIglesiCatólica.mp3",                            "titulo_elegante": "9 La santa Iglesia Católica" },
-        { "archivo": "audio/Credo/10-comunióndelossantos.mp3",                            "titulo_elegante": "10 La comunión de los santos" },
-        { "archivo": "audio/Credo/11-perdóndelospecados.mp3",                             "titulo_elegante": "11 El perdón de los pecados" },
-        { "archivo": "audio/Credo/12-ResurrecciónCarneylavidaeterna.mp3",                 "titulo_elegante": "12 La resurrección de la carne y la vida eterna" }
+        { "archivo": "audio/credo/00-Credo.mp3", "titulo_elegante": "Credo" },
+        { "archivo": "audio/credo/01-DiosPadretodopoderoso.mp3",                          "titulo_elegante": "1 Creo en Dios Padre todopoderoso" },
+        { "archivo": "audio/credo/02-JesucristoÚnicoHijo.mp3",                            "titulo_elegante": "2 Creo en Jesucristo su único Hijo" },
+        { "archivo": "audio/credo/03-concebidoEspirituSanto.mp3",                         "titulo_elegante": "3 Que fue concebido por el Espiritu Santo" },
+        { "archivo": "audio/credo/04-PadeciobajopoderponcioPilato.mp3",                   "titulo_elegante": "4 Padecio bajo el poder de poncio Pilato" },
+        { "archivo": "audio/credo/05-DescendióInfiernosyTercerdiaResucitó.mp3",           "titulo_elegante": "5 Descendió a los infiernos y al tercer dia resucitó" },
+        { "archivo": "audio/credo/06-SubióCieloyestáSentadoDerechadeDiosPadre.mp3",       "titulo_elegante": "6 Subió al cielo y está sentado a la derecha de Dios Padre" },
+        { "archivo": "audio/credo/07-Desdeallihadevenirajuzgaralosvivosyalosmuertos.mp3", "titulo_elegante": "7 Desde allio ha de venir a juzgar a los vivos y a los muertos" },
+        { "archivo": "audio/credo/08-CreoEspirituSanto.mp3",                              "titulo_elegante": "8 Creo en el Espiritu Santo" },
+        { "archivo": "audio/credo/09-santaIglesiCatólica.mp3",                            "titulo_elegante": "9 La santa Iglesia Católica" },
+        { "archivo": "audio/credo/10-comunióndelossantos.mp3",                            "titulo_elegante": "10 La comunión de los santos" },
+        { "archivo": "audio/credo/11-perdóndelospecados.mp3",                             "titulo_elegante": "11 El perdón de los pecados" },
+        { "archivo": "audio/credo/12-ResurrecciónCarneylavidaeterna.mp3",                 "titulo_elegante": "12 La resurrección de la carne y la vida eterna" }
       ]
     }
   ]
