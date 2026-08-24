@@ -102,6 +102,24 @@
         { "archivo": "audio/credo/11-perdóndelospecados.mp3",                             "titulo_elegante": "11 El perdón de los pecados" },
         { "archivo": "audio/credo/12-ResurrecciónCarneylavidaeterna.mp3",                 "titulo_elegante": "12 La resurrección de la carne y la vida eterna" }
       ]
+    },
+
+    {
+      "id": "ReTraditio",
+      "nombre_elegante": "Re Traditio Symboli",
+      "audios": [
+
+
+        { "archivo": "audio/reTraditio/01-Viernes - Inicio Convivencia ReTraditio.mp3", "titulo_elegante": "01-Viernes - Inicio Convivencia ReTraditio - Jhony" },
+        { "archivo": "audio/reTraditio/02-1-Sábado ReTraditio - Laudes-1.mp3",          "titulo_elegante": "02-1-Sábado ReTraditio - Laudes-1" },
+        { "archivo": "audio/reTraditio/02-1-Sábado ReTraditio - Laudes-2.mp3",          "titulo_elegante": "02-1-Sábado ReTraditio - Laudes-2" },
+        { "archivo": "audio/reTraditio/02-2-Sábado-Exumación.mp3",                      "titulo_elegante": "02-2-Sábado-Exumación" },
+        { "archivo": "audio/reTraditio/02-3-Sábado Homilia.mp3",                        "titulo_elegante": "02-3-Sábado Homilia" },
+        { "archivo": "audio/reTraditio/03-Domingo-Catequesis Santiago.mp3",             "titulo_elegante": "03-Domingo- Laudes y Catequesis Santiago" }
+        
+      ]
     }
+
+
   ]
 }
